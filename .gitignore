@@ -1,0 +1,12 @@
+/_ReSharper.*/
+/dist/
+/report/
+/TestResults/
+/*.cache
+/*.suo
+/*.user
+bin/
+obj/
+lib/CacheUtils.dll
+lib/WebService.dll
+ThisAssembly.cs

@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheUtils", "CacheUtils\CacheUtils.csproj", "{6EF54F88-48BF-4929-91BA-868A455DB57C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebService", "WebService\WebService.csproj", "{EAFFC6AB-3668-4170-BA4C-297FA687EAF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "General", "General", "{33799F3F-BF7D-4DBE-9C7B-5ED3372AF946}"
+	ProjectSection(SolutionItems) = preProject
+		CacheStatus.py = CacheStatus.py
+		Speed.py = Speed.py
+		Uptime.py = Uptime.py
+		WebService.py = WebService.py
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{D8435944-C669-4CF1-A68D-02A97DDE47A4}"
+	ProjectSection(SolutionItems) = preProject
+		Console\rc.py = Console\rc.py
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UrlShortener", "UrlShortener", "{85D5FA15-2D40-43B4-B5BE-17F85DE630AB}"
+	ProjectSection(SolutionItems) = preProject
+		UrlShortener\j.mp.py = UrlShortener\j.mp.py
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EF54F88-48BF-4929-91BA-868A455DB57C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EF54F88-48BF-4929-91BA-868A455DB57C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EF54F88-48BF-4929-91BA-868A455DB57C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EF54F88-48BF-4929-91BA-868A455DB57C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAFFC6AB-3668-4170-BA4C-297FA687EAF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAFFC6AB-3668-4170-BA4C-297FA687EAF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAFFC6AB-3668-4170-BA4C-297FA687EAF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAFFC6AB-3668-4170-BA4C-297FA687EAF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
