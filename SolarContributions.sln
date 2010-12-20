@@ -15,6 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "General", "General", "{3379
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{D8435944-C669-4CF1-A68D-02A97DDE47A4}"
 	ProjectSection(SolutionItems) = preProject
+		Console\CacheUtils.py = Console\CacheUtils.py
 		Console\rc.py = Console\rc.py
 	EndProjectSection
 EndProject

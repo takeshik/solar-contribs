@@ -115,7 +115,7 @@ namespace XSpect.Contributions.Solar
                             ),
                             ") ",
                             new XElement(H + "a",
-                                new XAttribute("href", "http://github.com/takeshik/solar-scripts/"),
+                                new XAttribute("href", "https://github.com/takeshik/solar-contribs/tree/master/WebService"),
                                 "Web Service"
                             ),
                             String.Format(" ({0}, created by ", typeof(WebService).Assembly.GetName().Version),
